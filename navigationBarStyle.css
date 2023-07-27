@@ -21,6 +21,8 @@ body {
 button img {
   height: 50px;
   width: 50px;
+  transform: translate(-23px, 2px);
+  vertical-align: middle;
 }
 
 button {

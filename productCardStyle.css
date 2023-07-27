@@ -30,7 +30,6 @@ body {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  position: relative;
 }
 h3 {
   margin-bottom: 0;
@@ -42,9 +41,7 @@ p {
   font-size: 1.5rem;
 }
 .cardBody :nth-of-type(2) {
-  position: absolute;
-  top: 45px;
-  right: 45px;
+  transform: translate(321px, -72px);
   font-size: 2rem;
 }
 
